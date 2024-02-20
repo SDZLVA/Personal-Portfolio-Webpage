@@ -16,18 +16,42 @@
 
 }
 
+body {
+    background-image: url("background.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
 
-.footer {
+}
+
+.container h1,
+.container h2 {
+    color: white;
+}
+
+footer {
     bottom: 0;
     width: 100%;
     position: fixed;
     padding: 0px;
     margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-#footer-nav{
+
+#footer-nav {
     background-color: black;
     color: #fffdfd;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-section {
+    flex: 1;
+    margin: 0 10px;
+}
+html,
+body{
+    margin: 0px;
+    padding: 0px;
 }
