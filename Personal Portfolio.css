@@ -1,44 +1,9 @@
 #navbar {
-    height: 10px;
-    top: 0;
-    left: 0;
-    position: fixed;
-}
-
-#welcome-section {
-    height: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-
-    body {
-        font-size: 14px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-}
-
-#welcome-section {
-    height: 10px;
     text-align: center;
-    top: 50%;
-    left: 50%;
-
+    background-color: rgb(43, 119, 226);
 }
 
-#projects {
-    text-align: center;
-    top: 50%;
-    left: 50%;
-}
-
-#navbar {
-    height: 10px;
-    text-align: center;
-    background-color: blueviolet;
-}
 #navbar a {
-    float: left;
     color: rgb(17, 16, 16);
     text-align: center;
     padding: 14px 16px;
@@ -49,4 +14,20 @@
 #profile-link {
     text-align: center;
 
+}
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#footer-nav{
+    background-color: black;
+    color: #fffdfd;
+    text-align: center;
 }
